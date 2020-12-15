@@ -37,6 +37,7 @@ class Scanner:
             Resp = requests.get(Url,headers=self.Agent)
             if self.Payload in str(Resp.content):
                 print("[+] XSS Found",Url)
+        File.close()
         self.Thanks()
 if __name__ == "__main__":
     
