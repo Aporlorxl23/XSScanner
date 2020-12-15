@@ -1,5 +1,5 @@
 # XSScanner
-Basic Automatic XSS Scanner 
+Basic XSS Scanner 
 
 # Resources
 - [Usage](#Usage)
